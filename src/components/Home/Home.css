@@ -1,0 +1,30 @@
+.banner{
+    background-color: #3444c0;
+}
+.banner-left{
+    width: 50%;
+}
+.banner-right{
+    width: 50%;
+}
+.banner-right img{
+    width: 90%;
+}
+.welcoming{
+    color: white;
+    font-size: 2.7rem;
+    line-height: 40px;
+}
+.banner-desc{
+    font-size: 1.3rem;
+}
+.dtn-txt{
+    text-decoration: none;
+    color: #FFC107;
+}
+.text-color-a{
+    color: white;
+}
+.dfr-color-a{
+    color: #FFD94C;
+}

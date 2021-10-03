@@ -1,0 +1,16 @@
+.menu{
+    font-weight: 500;
+    position: fixed;
+}
+.menu-link{
+    text-decoration: none;
+    margin: 20px;
+    display: inline-block;
+}
+.menu-link:hover{
+    color: white;
+}
+.menu-link-left{
+    margin-left: 0px;
+    margin-right: 20px;
+}
