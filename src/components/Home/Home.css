@@ -1,8 +1,11 @@
 .banner{
-    background-color: #3444c0;
+    background-color: #4F5CC0;
 }
 .banner-left{
     width: 50%;
+}
+.banner-left img{
+    width: 90%;
 }
 .banner-right{
     width: 50%;
@@ -27,4 +30,8 @@
 }
 .dfr-color-a{
     color: #FFD94C;
+}
+.motivation{
+    font-size: 1.2rem;
+    font-weight: 300;
 }

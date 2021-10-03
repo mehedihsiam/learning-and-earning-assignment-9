@@ -1,0 +1,8 @@
+.course-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.title{
+    color: #4F5CC0;
+}
