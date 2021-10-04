@@ -4,7 +4,7 @@ import { Card } from 'react-bootstrap';
 const Member = (props) => {
     const { name, designation, img } = props.member;
     return (
-        <div>
+        <div className="my-5">
             <Card style={{ width: '18rem' }}>
                 <Card.Img className="round" variant="top" src={img} />
                 <Card.Body>
