@@ -1,18 +1,16 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
 import About from './components/About/About';
-import Banner from './components/Banner/Banner';
+import Contact from './components/Contact/Contact';
 import Courses from './components/Courses/Courses';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import NotFound from './components/NotFound/NotFound';
-import Trainers from './components/Trainers/Trainers';
 function App() {
   return (
     <BrowserRouter>
       <Header></Header>
-      <Banner></Banner>
       <Switch>
         <Route exact path='/'>
           <Home></Home>
@@ -26,8 +24,8 @@ function App() {
         <Route path='/courses'>
           <Courses></Courses>
         </Route>
-        <Route path='/trainers'>
-          <Trainers></Trainers>
+        <Route path='/contact'>
+          <Contact></Contact>
         </Route>
         <Route exact path='*'>
           <NotFound></NotFound>

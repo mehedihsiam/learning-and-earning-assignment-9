@@ -1,0 +1,38 @@
+[
+    {
+        "key": "J002RL8IYK",
+        "name": "LARA",
+        "designation": "CEO",
+        "img": "./img/aboutUs/m-1.jpg"
+    },
+    {
+        "key": "I002RL8IYK",
+        "name": "Ema",
+        "designation": "MD",
+        "img": "./img/aboutUs/m-2.jpg"
+    },
+    {
+        "key": "H002RL8IYK",
+        "name": "LARA",
+        "designation": "Graphic Design Trainer",
+        "img": "./img/aboutUs/m-3.jpg"
+    },
+    {
+        "key": "G002RL8IYK",
+        "name": "Mariya",
+        "designation": "Trainer",
+        "img": "./img/aboutUs/m-4.jpg"
+    },
+    {
+        "key": "F002RL8IYK",
+        "name": "Suraiya",
+        "designation": "Trainer",
+        "img": "./img/aboutUs/m5.jpg"
+    },
+    {
+        "key": "E002RL8IYK",
+        "name": "Muhaimina",
+        "designation": "trainer",
+        "img": "./img/aboutUs/m6.jpg"
+    }
+]

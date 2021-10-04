@@ -22,8 +22,8 @@ const CoursesHome = () => {
                     ></CourseHome>)
                 }
             </div>
-            <Button>
-                <Link to='/courses'>See all Courses</Link>
+            <Button className="btn btn-warning">
+                <Link to='/courses' className='button-text'>See all Courses</Link>
             </Button>
         </div>
     );

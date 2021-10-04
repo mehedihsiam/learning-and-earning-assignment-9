@@ -1,11 +1,12 @@
 import Button from '@restart/ui/esm/Button';
+import Banner from '../Banner/Banner';
 import CoursesHome from '../CoursesHome/CoursesHome';
 import './Home.css';
 import img2 from "./img/boy.jpg"
 const Home = () => {
     return (
         <div>
-
+            <Banner></Banner>
             <div className="container py-5 d-flex">
                 <div className="banner-left">
                     <img src={img2} alt="" />
