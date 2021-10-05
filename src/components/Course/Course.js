@@ -12,8 +12,8 @@ const Course = (props) => {
                     <Card.Title className="title">{name}</Card.Title>
                     <Card.Text> {desc}</Card.Text>
                     <p className="title"><strong>Trainer: {trainer}</strong></p>
-                    <p>Total Classes: {totalClasses}</p>
-                    <p>Course Duration: {duration}</p>
+                    <p className="fw-bold">Total Classes: {totalClasses}</p>
+                    <p className="fw-bold">Course Duration: {duration}</p>
                     <p className="fees fw-bold">Only ${fees}</p>
                     <Button variant="primary" className="btn btn-warning">Get Admission</Button>
                 </Card.Body>
